@@ -1,3 +1,6 @@
+body {
+    font-family: 'Cinzel', serif;
+
 .red-banner {
     background-color: #a01313;
 }
@@ -5,4 +8,28 @@
 .container-fluid {
     padding-left: 0;
     padding-right: 0;
+}
+
+.info-paragraph {
+    padding: 3rem;
+    height: auto;
+}
+
+.card {
+    border-radius: 0;
+}
+
+.footer-info {
+    text-align: center;
+    padding: 3rem;
+}
+
+.nav-title {
+    text-align: center;
+    padding: 2rem;
+}
+
+.nav-links {
+    text-align: center;
+    padding-bottom: 2rem;
 }
