@@ -1,35 +1,211 @@
 body {
-    font-family: 'Cinzel', serif;
+  font-family: "Cinzel", serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
 
 .red-banner {
-    background-color: #a01313;
+  background-color: #a01313;
+  text-align: center;
+}
+
+.black-banner {
+  background-color: black;
+  text-align: center;
 }
 
 .container-fluid {
-    padding-left: 0;
-    padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .info-paragraph {
-    padding: 3rem;
-    height: auto;
+  padding: 5rem 15rem;
+  height: auto;
+}
+
+.info-paragraph p {
+  margin: 2rem;
+}
+
+.info-paragraph h4 {
+  padding: 3rem;
+}
+
+.info-paragraph h5 {
+  font-weight: bold;
 }
 
 .card {
-    border-radius: 0;
+  border-radius: 0;
 }
 
 .footer-info {
-    text-align: center;
-    padding: 3rem;
+  text-align: center;
+  padding: 3rem;
 }
 
 .nav-title {
-    text-align: center;
-    padding: 2rem;
+  text-align: center;
+  padding: 2rem;
 }
 
 .nav-links {
-    text-align: center;
-    padding-bottom: 2rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.card-img-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.btn-primary {
+  margin-top: 5rem;
+  background: white;
+  color: black;
+  border: none;
+}
+
+.btn-primary:hover {
+  color: white;
+  background-color: black;
+}
+
+.btn-secondary {
+  margin-top: 5rem;
+  background: black;
+  color: white;
+  border: none;
+}
+
+.btn-secondary:hover {
+  color: black;
+  background-color: white;
+}
+
+.btn-third {
+  margin-top: 5rem;
+  background: #a01313;
+  color: white;
+  border: none;
+}
+
+.btn-third:hover {
+  color: black;
+  background-color: white;
+}
+
+.hr-nav {
+  height: 4px !important;
+  opacity: 0.9;
+  border-radius: 12px;
+}
+
+.hr-paragraph-break {
+  height: 3px !important;
+  opacity: 0.6;
+  border-radius: 12px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.page-header {
+  text-align: center;
+  padding: 2rem;
+}
+
+#q_a_add_info {
+  text-align: center;
+  padding: 1rem;
+}
+
+#hr-nav-top {
+  margin-top: 2rem;
+  color: #a01313;
+}
+
+#home_page {
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+#about_page {
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+#q_a_page {
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+#contact_page {
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

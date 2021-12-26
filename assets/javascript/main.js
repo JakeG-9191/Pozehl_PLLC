@@ -14,5 +14,3 @@ const showSectionContent = (show) => {
 };
 
 showSectionContent('home_page');
-
-console.log('global only on first load');
