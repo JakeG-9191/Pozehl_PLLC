@@ -123,6 +123,14 @@ a {
   padding: 2rem;
 }
 
+#email-link {
+  color: white;
+}
+
+#email-link-parent {
+  margin-bottom: 2rem;
+}
+
 #q_a_add_info {
   text-align: center;
   padding: 1rem;
