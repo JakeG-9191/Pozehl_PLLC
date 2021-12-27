@@ -14,4 +14,15 @@ const showSectionContent = (show) => {
   return false;
 };
 
+window.addEventListener("scroll", () => {
+  const windowWidth = window.outerWidth;
+  const mapWidth = windowWidth * 0.75;
+  const mapFrame = document.getElementById("map-frame");
+  mapFrame.width = mapWidth;
+  const firstFrame = document.getElementsByClassName("mapouter");
+  firstFrame.width = `${mapWidth}px`;
+  const secondFrame = document.getElementsByClassName("gmap_canvas");
+  secondFrame.width = `${mapWidth}px`;
+});
+
 showSectionContent("home_page");

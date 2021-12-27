@@ -36,6 +36,13 @@ a {
   padding-right: 0;
 }
 
+.info-paragraph-map {
+  height: auto;
+  justify-content: center;
+  display: flex;
+  padding: 3rem;
+}
+
 .info-paragraph {
   padding: 5rem 15rem;
   height: auto;
@@ -185,6 +192,30 @@ a {
   -moz-animation: fadeIn 3s;
   -o-animation: fadeIn 3s;
   -ms-animation: fadeIn 3s;
+}
+
+@media only screen and (max-width: 1250px) {
+  #q_a_add_info {
+    padding: 3rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .info-paragraph {
+    padding: 5rem 10rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .info-paragraph {
+    padding: 3rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .info-paragraph {
+    padding: 3rem 1rem;
+  }
 }
 
 @keyframes fadeIn {
