@@ -7,7 +7,7 @@ a {
   color: black;
 }
 
-a:hover {
+a:focus {
   color: #a01313;
 }
 
