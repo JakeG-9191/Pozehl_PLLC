@@ -35,6 +35,12 @@ a:focus {
   text-align: center;
 }
 
+.white-banner {
+  background-color: white;
+  color: black !important;
+  text-align: center;
+}
+
 .container-fluid {
   padding-left: 0;
   padding-right: 0;
