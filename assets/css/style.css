@@ -154,6 +154,10 @@ a:focus {
   padding: 2rem;
 }
 
+.phone-white {
+  color: white;
+}
+
 #email-link {
   color: white;
 }
